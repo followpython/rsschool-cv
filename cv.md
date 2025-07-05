@@ -1,4 +1,4 @@
-Mafizat Musaeva!
+Marina Musaeva
 
-CV
+start CV
 
