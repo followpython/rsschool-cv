@@ -1,1 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musaeva CV</title>
+
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+        <header class="header">
+    <nav class="nav">
+<ul class="nav-list">
+    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+  </ul>
+</nav>
+    </header>
+   <main class="main-container">
+      <section class="section" id="profile">
+        <h1>Marina Musaeva</h1>
+        <h2>Junior Frontend Developer</h2>
+        <img src="avatome.png" alt="myphoto" width="270" height="270">
+      </section>
+      <section class="section" id="contacts">
+        <h3 class="section-title">Contacts</h3>
+        <ul>
+          <li>Phone: +33 699 373737</li>
+          <li>E-mail: m.m.musaeva@gmail.com</li>
+          <li>GitHub: https://github.com/followpython</li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <div>
+          <p>
+           After 9 years of experience in Payroll, i decided to dive into a 
+           new field for myself - programming. I am very interested in learning 
+           code in order to subsequently apply my skills in work. In any case, 
+           this is a new experience that will lead to an interesting start to a 
+           new career.
+          </p>
+        </div>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>Python</li>
+          <li>HTML5 / CSS3</li>
+          <li>JavaScript (Basics)</li>
+          <li>Git, Github</li>
+          <li>Visial Studio Code</li>
+        </ul>
+        </section>
+    <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+      <pre>
+      <code>
+    n = int(input('Natural number: ')) 
+divisors = []
+for i in range (2, n // 2 + 1):
+    if n % i == 0:
+        divisors.append(i)
+print('Divisors proper:', ','.join(map(str,divisors)))
+      </code>
+    </pre>
+      </section>
+      <section class="section" id="courses">
+          <div class="sub-header">
+            <h2 class="section-title">Courses</h2>
+          </div>
+          <ul>
+            <li>https://book.up2skills.dev/basic-python</li>
+            <li>https://learning.edx.org/course/course-v1:HarvardX+CS50+X</li>
+            <li>https://rs.school/courses/javascript-ru</li>
+          </ul>
+        </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul>
+          <li>
+            <a href="https://followpython.github.io/rsschool-cv/" target="_blank" rel="noopener noreferrer">CV</a>
+          </li>
+        </ul>
+    </section>
+    <section class="section" id="education">
+          <div class="sub-header">
+            <h2 class="section-title">Education</h2>
+          </div>
+          <p><strong>Dagestan State Technical University</strong></p>
+          <p>Economy & Finance Faculty</p>
+          <p>Years: 2000 - 2006</p>
+          <p>Specialization: Economist, Master's degree</p>
+        </section>
+          <section class="section" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+              <li>
+                <p class="language-name">Russian - Native</p>
+              </li>
+              <li>
+                <p class="language-name">English - Intermediate</p>
+              </li>
+              <li>
+                <p class="language-name">French - Intermediate</p>
+              </li>
+            </ul>
+          </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="my-github" href="https://github.com/followpython">
+            <img src="github.png" class="nav-link" alt="github-icon" width="70" height="35">
+        <p>My GitHub</p>
+      </a>
+          </li>
+          <li class="nav-item">2025</li>
+          <li class="nav-item">
+            <a href="https://rs.school/courses/javascript-ru">
+            <img src="rsschool.svg" class="nav-link" alt="rs icon" width="180" height="80">
+        </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
